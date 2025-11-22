@@ -1,0 +1,329 @@
+# =============================================
+# GIT IGNORE FOR ENGINEERING PORTFOLIO
+# =============================================
+
+# =============================================
+# OPERATING SYSTEM FILES
+# =============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+
+# Linux
+*~
+
+# =============================================
+# IDE AND EDITOR FILES
+# =============================================
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.settings/
+.project
+.classpath
+.metadata/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# =============================================
+# DEPENDENCIES AND PACKAGES
+# =============================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ruby
+/.bundle
+/vendor/bundle
+/lib/bundle
+*.gem
+
+# =============================================
+# BUILD AND DISTRIBUTION FILES
+# =============================================
+
+# Build directories
+/dist/
+/build/
+/out/
+/target/
+
+# Dependency directories
+/jspm_packages/
+/web_modules/
+
+# Production files
+/.env
+/.env.production
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# =============================================
+# LOGS AND TEMPORARY FILES
+# =============================================
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# =============================================
+# CAD AND ENGINEERING FILES
+# =============================================
+
+# AutoCAD
+*.dwg
+*.dxf
+*.dwt
+*.dws
+*.dwf
+*.dwfx
+
+# SolidWorks
+*.sldprt
+*.sldasm
+*.slddrw
+
+# Inventor
+*.ipt
+*.iam
+*.idw
+*.ipj
+
+# Revit
+*.rvt
+*.rfa
+*.rte
+
+# CATIA
+*.CATPart
+*.CATProduct
+*.CATDrawing
+
+# Fusion 360
+*.f3d
+
+# SketchUp
+*.skp
+
+# =============================================
+# ENGINEERING ANALYSIS FILES
+# =============================================
+
+# ANSYS
+*.db
+*.dbb
+*.stat
+*.esav
+*.emat
+*.full
+*.mntr
+*.r001
+*.r002
+*.rst
+*.rth
+*.lock
+
+# ABAQUS
+*.odb
+*.dat
+*.msg
+*.sta
+*.prt
+*.inp
+*.res
+*.fil
+
+# MATLAB
+*.mat
+*.mex*
+*.asv
+*.m~
+
+# =============================================
+# DOCUMENT AND DATA FILES
+# =============================================
+
+# Microsoft Office
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.tmp
+
+# Large data files
+*.csv
+*.xlsx
+*.xls
+*.pdf (if large, but usually we want to keep portfolio PDFs)
+*.psd
+*.ai
+
+# =============================================
+# PROJECT SPECIFIC IGNORES
+# =============================================
+
+# Portfolio specific
+/assets/documents/temp/
+/assets/images/temp/
+/src/calculations/temp/
+/src/cad/backups/
+
+# =============================================
+# GIT AND VERSION CONTROL
+# =============================================
+
+# Git
+*.orig
+*.patch
+
+# Git LFS
+.git-lfs/
+
+# =============================================
+# SECURITY AND SENSITIVE FILES
+# =============================================
+
+# API Keys and secrets
+*.key
+*.pem
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Configuration files with secrets
+config.json
+secrets.json
+credentials.json
+firebase.json
+
+# =============================================
+# TESTING AND QUALITY ASSURANCE
+# =============================================
+
+# Jest
+/jest-coverage/
+
+# Cypress
+/cypress/screenshots/
+/cypress/videos/
+
+# =============================================
+# MISCELANEOUS
+# =============================================
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Executables
+*.exe
+*.msi
+*.deb
+*.pkg
+*.dmg
+*.app
+
+# =============================================
+# NOTE: FILES THAT SHOULD BE KEPT
+# =============================================
+
+# Keep these files (negation patterns)
+!README.md
+!LICENSE
+!.gitignore
+!package.json
+!*.config.js
+!*.html
+!*.css
+!*.js
+
+# Keep important documentation
+!/docs/
+!/docs/**/*
+!/examples/
+!/examples/**/*
+
+# =============================================
+# END OF GITIGNORE
+# =============================================

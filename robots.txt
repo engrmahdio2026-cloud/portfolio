@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://engenmahdicloud/portfolio.github.io/sitemap.xml
